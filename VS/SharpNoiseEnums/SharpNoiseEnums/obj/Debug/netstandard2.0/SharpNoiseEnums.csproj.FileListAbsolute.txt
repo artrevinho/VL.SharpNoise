@@ -1,0 +1,9 @@
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\bin\Debug\netstandard2.0\SharpNoiseEnums.deps.json
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\bin\Debug\netstandard2.0\SharpNoiseEnums.dll
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\bin\Debug\netstandard2.0\SharpNoiseEnums.pdb
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\obj\Debug\netstandard2.0\SharpNoiseEnums.csprojAssemblyReference.cache
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\obj\Debug\netstandard2.0\SharpNoiseEnums.csproj.CoreCompileInputs.cache
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\obj\Debug\netstandard2.0\SharpNoiseEnums.AssemblyInfoInputs.cache
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\obj\Debug\netstandard2.0\SharpNoiseEnums.AssemblyInfo.cs
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\obj\Debug\netstandard2.0\SharpNoiseEnums.dll
+D:\VVVV_2021\VL.SharpNoise\VS\SharpNoiseEnums\SharpNoiseEnums\obj\Debug\netstandard2.0\SharpNoiseEnums.pdb
