@@ -2193,17 +2193,6 @@
                       <Pin Id="Ocz0REhIDTNLOFYAAUFRH0" Name="Output" Kind="StateOutputPin" />
                       <Pin Id="BYQulsN48W4N0DolDGm1aw" Name="Destination Image" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="556,693" Id="GEu1d42qS6rQBoghRW7ARu">
-                      <p:NodeReference LastCategoryFullName="Parallel" LastSymbolSource="VL.CoreLib.Experimental.vl">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="ThreadSleep" />
-                      </p:NodeReference>
-                      <Pin Id="OkidViwRfT5MinbvwUc6DK" Name="Milliseconds Timeout" Kind="InputPin" DefaultValue="1">
-                        <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                          <Choice Kind="TypeFlag" Name="Integer32" />
-                        </p:TypeAnnotation>
-                      </Pin>
-                    </Node>
                   </Patch>
                 </Node>
                 <Node Bounds="322,753,88,19" Id="PokLKgLe1wWLVgCGLgPM4t">
@@ -2503,9 +2492,9 @@
             <ControlPoint Id="V1wp7CFWgEwNq0xfazeJb2" Bounds="433,347" />
             <ControlPoint Id="GsnuduyR7NcPBUmd6yKPyO" Bounds="524,347" />
             <ControlPoint Id="TBuAnUa49RZNRNXDAMD6Fo" Bounds="595,347" />
-            <ControlPoint Id="HDKnF9nvIU8MC6SlY0om0d" Bounds="668,347" />
-            <ControlPoint Id="G7YUoSLnseXMd30bImA12L" Bounds="750,347" />
-            <ControlPoint Id="GcbfaX6pcODPQHPbjM9hFz" Bounds="844,347" />
+            <ControlPoint Id="HDKnF9nvIU8MC6SlY0om0d" Bounds="754,348" />
+            <ControlPoint Id="G7YUoSLnseXMd30bImA12L" Bounds="836,348" />
+            <ControlPoint Id="GcbfaX6pcODPQHPbjM9hFz" Bounds="670,350" />
             <ControlPoint Id="HCEs43xKXlTNMrrNsgVWGa" Bounds="924,347" />
             <ControlPoint Id="GH8LVhuo3NJLZMgfzJn1Kb" Bounds="1017,347" />
             <ControlPoint Id="UgLarqEapbuNNDdFj0xR9H" Bounds="387,678" />

@@ -184,7 +184,7 @@
             <Pin Id="FYvdELkZR3eL6d0Mu5r1Kx" Name="Input 2" Kind="InputPin" />
             <Pin Id="GyFmJiy6z6fMS88hMTgaVb" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="600,737,94,19" Id="NeVbOFbZAYsMmHOlxshpwh">
+          <Node Bounds="502,723,94,19" Id="NeVbOFbZAYsMmHOlxshpwh">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -384,17 +384,17 @@
           <Overlay Id="EDLRBNuQ806Osk6tYdAnYr" Name="NoiseColors" Bounds="834,187,221,259">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Pad Id="C8vmX8oWIIjPGNAZUBpsac" Comment="Filename" Bounds="632,656,93,16" ShowValueBox="true" isIOBox="true" Value="">
+          <Pad Id="C8vmX8oWIIjPGNAZUBpsac" Comment="Filename" Bounds="535,641,93,16" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SXGrJ1ex3DzNMdIthTOuWw" Comment="Format" Bounds="663,687,64,15" ShowValueBox="true" isIOBox="true" Value="Png">
+          <Pad Id="SXGrJ1ex3DzNMdIthTOuWw" Comment="Format" Bounds="566,670,64,15" ShowValueBox="true" isIOBox="true" Value="Png">
             <p:TypeAnnotation LastCategoryFullName="SharpNoiseEnums.SNEnums" LastSymbolSource="SharpNoiseEnums.dll">
               <Choice Kind="TypeFlag" Name="ImageFormat" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="ObJpcdyaoKJQZEAxtmliKK" Comment="Save" Bounds="799,655,50,50" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="ObJpcdyaoKJQZEAxtmliKK" Comment="Save" Bounds="702,640,50,50" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -402,7 +402,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="NQdfgd9OZXYPRpx1ktqSKz" Name="SaveMap" Bounds="607,584,300,132">
+          <Overlay Id="NQdfgd9OZXYPRpx1ktqSKz" Name="SaveMap" Bounds="510,569,300,132">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
           <Pad Id="EWV3fskizjNNtGfHbDZEQV" Bounds="44,127,577,31" ShowValueBox="true" isIOBox="true" Value="A CPU NoiseMap Designer based in Libnoise">
@@ -460,7 +460,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JgTB4dOf9fRP4fotbnM5Gn" Bounds="611,624,198,19" ShowValueBox="true" isIOBox="true" Value="Save Map in common formats">
+          <Pad Id="JgTB4dOf9fRP4fotbnM5Gn" Bounds="514,609,198,19" ShowValueBox="true" isIOBox="true" Value="Save Map in common formats">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
