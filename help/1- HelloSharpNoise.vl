@@ -277,7 +277,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="307,378,85,19" Id="DBhwhJLfdxkPNEGngsP1Tx">
+          <Node Bounds="339,349,85,19" Id="DBhwhJLfdxkPNEGngsP1Tx">
             <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO (MinMax)" />
@@ -350,7 +350,7 @@
           <Overlay Id="CmINy1ScnIUQBxbT15Nbqm" Name="NoiseTree" Bounds="224,258,223,190">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Node Bounds="268,349,85,19" Id="KvHMKMLxlbDOqHuieuogEZ">
+          <Node Bounds="240,347,85,19" Id="KvHMKMLxlbDOqHuieuogEZ">
             <p:NodeReference LastCategoryFullName="SharpNoise.Source" LastSymbolSource="VL.SharpNoise_04.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -482,6 +482,15 @@
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">8</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="BJmvQuDiKNTMlHGIF5puRV" Bounds="338,382,87,58" ShowValueBox="true" isIOBox="true" Value="Libnoise is not omptimized for animation ,only in low res">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
