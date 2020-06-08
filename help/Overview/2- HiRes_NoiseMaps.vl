@@ -15,14 +15,14 @@
       </p:NodeReference>
       <Patch Id="S63YfAYf2AkLFCU7Cwrxxj">
         <Canvas Id="I0aKQDLgxybMDUoG1bUtBa" CanvasType="Group">
-          <Node Bounds="478,95,85,19" Id="LXwoixlO3lxQCtLmK1HO58">
+          <Node Bounds="458,176,85,19" Id="LXwoixlO3lxQCtLmK1HO58">
             <p:NodeReference LastCategoryFullName="SharpNoise.Source" LastSymbolSource="VL.SharpNoise_04.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
               <CategoryReference Kind="Category" Name="Source" />
               <Choice Kind="ProcessAppFlag" Name="RidgedMulti" />
             </p:NodeReference>
-            <Pin Id="EhTz9sq1McUOHpOi4Sdmo4" Name="Freq" Kind="InputPin" DefaultValue="1.58">
+            <Pin Id="EhTz9sq1McUOHpOi4Sdmo4" Name="Freq" Kind="InputPin" DefaultValue="0.67">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
@@ -46,7 +46,7 @@
             <Pin Id="L3F77hWPqbJNTsrL7Wh8S8" Name="Output" Kind="OutputPin" />
             <Pin Id="OnevHGFQKkTMqu0YcmvXZ2" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="458,243,85,19" Id="IXYZDMvaKBILX6Jdk6XPZw">
+          <Node Bounds="438,324,85,19" Id="IXYZDMvaKBILX6Jdk6XPZw">
             <p:NodeReference LastCategoryFullName="SharpNoise.Modules.Selector" LastSymbolSource="VL.SharpNoise_04.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -70,7 +70,7 @@
             <Pin Id="GFEhBvbOQgsNgvKzulAOUr" Name="Output" Kind="OutputPin" />
             <Pin Id="LS6gmL3EWSnLYA8WC7b8lc" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="551,134,105,19" Id="PNc0qRzvsaxOrtnWPzkXL6">
+          <Node Bounds="531,215,105,19" Id="PNc0qRzvsaxOrtnWPzkXL6">
             <p:NodeReference LastCategoryFullName="SharpNoise.Modules.Source" LastSymbolSource="VL.SharpNoise.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Billow" />
@@ -100,7 +100,7 @@
             <Pin Id="N6qcoNNV89DQEIHvmrzpDJ" Name="Output" Kind="StateOutputPin" />
             <Pin Id="Oro6zhOllmqLII6b2ubM9b" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="560,241,65,19" Id="P44J3pnuvOHN1RaNffL2br">
+          <Node Bounds="540,322,65,19" Id="P44J3pnuvOHN1RaNffL2br">
             <p:NodeReference LastCategoryFullName="SharpNoise.Selector" LastSymbolSource="VL.SharpNoise_04.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -114,7 +114,7 @@
             <Pin Id="AFkeGW1ZgKTO5l3M9v85FX" Name="Output" Kind="StateOutputPin" />
             <Pin Id="LT9bPTcGQbMQblo2A2RRoQ" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="599,179,65,19" Id="JzOhgvo2DoWN97Mi6iUaSX">
+          <Node Bounds="579,260,65,19" Id="JzOhgvo2DoWN97Mi6iUaSX">
             <p:NodeReference LastCategoryFullName="SharpNoise.Modules.Modifier" LastSymbolSource="VL.SharpNoise.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ScaleBias" />
@@ -138,7 +138,7 @@
             <Pin Id="L3E9Oe3cHBaMxDUK2FxnP9" Name="Output" Kind="StateOutputPin" />
             <Pin Id="Fv11nC3GlvZQCywKTVt5aR" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="443,307,96,19" Id="Ize4gLaQSA9LiXBpHQFu0s">
+          <Node Bounds="423,388,96,19" Id="Ize4gLaQSA9LiXBpHQFu0s">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -149,12 +149,12 @@
             <Pin Id="ApGZFuks8OVMpfj9rQChcB" Name="Input 2" Kind="InputPin" />
             <Pin Id="RYH4SNdGE8rPqRg1XWhqXQ" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="TU5lKhMO22rPB5Os2Q601c" Bounds="400,227,42,44" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="TU5lKhMO22rPB5Os2Q601c" Bounds="380,308,42,44" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="406,393,151,19" Id="CD2XHEdQhoFLHYwp5RNFhb">
+          <Node Bounds="386,474,151,19" Id="CD2XHEdQhoFLHYwp5RNFhb">
             <p:NodeReference LastCategoryFullName="SharpNoise.Transformer" LastSymbolSource="VL.SharpNoise_04.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -173,7 +173,7 @@
             <Pin Id="KmC51sHP3uUO3jw6GQd1kF" Name="Output" Kind="StateOutputPin" />
             <Pin Id="QKgXoZuRcuCLeRsiwtvaxx" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="648,339,59,19" Id="PkYnKHFLStHQaXHpepeu8y">
+          <Node Bounds="628,420,59,19" Id="PkYnKHFLStHQaXHpepeu8y">
             <p:NodeReference LastCategoryFullName="SharpNoise.Modules.Source" LastSymbolSource="VL.SharpNoise.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Cylinders" />
@@ -186,7 +186,7 @@
             <Pin Id="OSZR68G2D16MuHPMdnkRMk" Name="Output" Kind="StateOutputPin" />
             <Pin Id="R3qhE36r6rIOHbELUeI0l2" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="459,340,65,19" Id="QydO6iN9kvoO1NKo1yG9nL">
+          <Node Bounds="439,421,65,19" Id="QydO6iN9kvoO1NKo1yG9nL">
             <p:NodeReference LastCategoryFullName="SharpNoise.Source" LastSymbolSource="VL.SharpNoise_04.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -212,7 +212,7 @@
             <Pin Id="IOCA5ojYsH9NKHiLyFoCYV" Name="Output" Kind="StateOutputPin" />
             <Pin Id="HcBcL0VLF51MVZ8bJFrYS7" Name="Preview" Kind="OutputPin" />
           </Node>
-          <Node Bounds="535,341,105,19" Id="PA7vNwFZFYXQLZWs7SI0Em">
+          <Node Bounds="515,422,105,19" Id="PA7vNwFZFYXQLZWs7SI0Em">
             <p:NodeReference LastCategoryFullName="SharpNoise.Modules.Source" LastSymbolSource="VL.SharpNoise_04.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -244,7 +244,7 @@
             </Pin>
             <Pin Id="Urj1FsL2lzdMbMvAKqfUiT" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="259,560,265,19" Id="KMs0m8LoYvcOYWFRX22Jkh">
+          <Node Bounds="249,624,265,19" Id="KMs0m8LoYvcOYWFRX22Jkh">
             <p:NodeReference LastCategoryFullName="SharpNoise" LastSymbolSource="VL.SharpNoise.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -282,7 +282,11 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="AwnnTOjViHIN2cf5Os79H6" Name="LightContrast" Kind="InputPin" />
+            <Pin Id="CyoyTB7KHVPLqjmQKfUXFH" Name="RGBA" Kind="InputPin" />
             <Pin Id="AJb7QSNkzCPLNig5iiew5p" Name="ColorPosition" Kind="InputPin" />
+            <Pin Id="Fx9zPRN0mioPoCF0Nc68zz" Name="Output" Kind="OutputPin" />
+            <Pin Id="JyiXYOewn34NsR0sAtRoMH" Name="SharpnoiseImage" Kind="OutputPin" />
+            <Pin Id="NVWzuFdQ8CrLd5LsklX4VY" Name="Used Memory" Kind="OutputPin" />
             <Pin Id="RO58ii04WqGOV1Eoby0RuY" Name="ColorRGBA" Kind="InputPin">
               <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
@@ -297,11 +301,8 @@
                 <Item>0.99, 0.991, 1, 1</Item>
               </p:DefaultValue>
             </Pin>
-            <Pin Id="Fx9zPRN0mioPoCF0Nc68zz" Name="Output" Kind="OutputPin" />
-            <Pin Id="JyiXYOewn34NsR0sAtRoMH" Name="SharpnoiseImage" Kind="OutputPin" />
-            <Pin Id="NVWzuFdQ8CrLd5LsklX4VY" Name="Used Memory" Kind="OutputPin" />
           </Node>
-          <Node Bounds="279,465,66,19" Id="AaGiPkGKVfnOjyQ8NsFWQr">
+          <Node Bounds="269,529,66,19" Id="AaGiPkGKVfnOjyQ8NsFWQr">
             <p:NodeReference LastCategoryFullName="SharpNoise.MapBuilders" LastSymbolSource="VL.SharpNoise.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="SharpNoise" />
@@ -314,7 +315,7 @@
             <Pin Id="B7Qlcld9R6yOawlciqcD7e" Name="East Lon Bound" Kind="InputPin" />
             <Pin Id="UnyY90pj6RHNr7lj5DkId8" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="262,606,67,26" Id="UbJGhMpd6c0PWLozu92X0U">
+          <Node Bounds="252,670,67,26" Id="UbJGhMpd6c0PWLozu92X0U">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Imaging" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromImage" />
@@ -326,7 +327,7 @@
             <Pin Id="AsAs4P0yIFgPiJ0Nu7SE8L" Name="Discard Higher Bits" Kind="InputPin" />
             <Pin Id="H98id0fK7hEMHVggZCgSMx" Name="Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="262,650,125,19" Id="Ew3M9Y2VQ2BPTdlXhCIdPv">
+          <Node Bounds="252,714,125,19" Id="Ew3M9Y2VQ2BPTdlXhCIdPv">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawImage" />
@@ -345,12 +346,12 @@
             <Pin Id="G18XRBDlqtPNfwY05qItIr" Name="Output" Kind="OutputPin" />
             <Pin Id="FVP6VTOnG8ZMJfB4OK5Amo" Name="Actual Bounds" Kind="OutputPin" />
           </Node>
-          <Node Bounds="242,695,145,19" Id="A6SDOYdZYUALO2gheBc3iT">
+          <Node Bounds="232,759,145,19" Id="A6SDOYdZYUALO2gheBc3iT">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="EVn2FJoNyJbNDtLrvfSF6U" Name="Bounds" Kind="InputPin" DefaultValue="674, 0, 613, 413">
+            <Pin Id="EVn2FJoNyJbNDtLrvfSF6U" Name="Bounds" Kind="InputPin" DefaultValue="711, 0, 576, 409">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -366,22 +367,22 @@
             <Pin Id="PDI7b5J11J3PZ2Vui2xXUd" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="Ot2pgOlIWRFLa3Plv7y55F" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="Cn9xtM6xWGgPhxQkR8OP8X" Comment="Width" Bounds="397,517,35,15" ShowValueBox="true" isIOBox="true" Value="1920">
+          <Pad Id="Cn9xtM6xWGgPhxQkR8OP8X" Comment="Width" Bounds="369,559,35,15" ShowValueBox="true" isIOBox="true" Value="1920">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RR9GKFcP4iHM3XFrdROtBQ" Comment="Height" Bounds="499,519,35,15" ShowValueBox="true" isIOBox="true" Value="1080">
+          <Pad Id="RR9GKFcP4iHM3XFrdROtBQ" Comment="Height" Bounds="471,561,35,15" ShowValueBox="true" isIOBox="true" Value="1080">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="EoWvP75vZYUP3kHbxkKRsr" Comment="DownSampler" Bounds="140,218,63,15" ShowValueBox="true" isIOBox="true" Value="Eight">
+          <Pad Id="EoWvP75vZYUP3kHbxkKRsr" Comment="DownSampler" Bounds="130,282,63,15" ShowValueBox="true" isIOBox="true" Value="Eight">
             <p:TypeAnnotation LastCategoryFullName="SharpNoiseEnums.SNEnums" LastSymbolSource="SharpNoiseEnums.dll">
               <Choice Kind="TypeFlag" Name="DownSampling" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Gp1XZMPYoqMM106zISbOdh" Bounds="102,79,146,25" ShowValueBox="true" isIOBox="true" Value="Hi-Res Editing">
+          <Pad Id="Gp1XZMPYoqMM106zISbOdh" Bounds="110,111,146,25" ShowValueBox="true" isIOBox="true" Value="Hi-Res Editing">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -390,15 +391,15 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="O6C38KcPsQoNaXy3qa9vAM" Comment="PerformFrames" Bounds="183,247,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="O6C38KcPsQoNaXy3qa9vAM" Comment="PerformFrames" Bounds="173,311,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="HylMG0FVd6jM7BVICDxSYi" Name="NoiseTree" Bounds="388,42,340,386">
+          <Overlay Id="HylMG0FVd6jM7BVICDxSYi" Name="NoiseTree" Bounds="368,123,340,386">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Pad Id="BSrPpGvwXGOQSgV0iy60c6" Bounds="124,167,212,41" ShowValueBox="true" isIOBox="true" Value="Tweak this to work in high resolutions without burn the CPU ;)">
+          <Pad Id="BSrPpGvwXGOQSgV0iy60c6" Bounds="114,231,212,41" ShowValueBox="true" isIOBox="true" Value="Tweak this to work in high resolutions without burn the CPU ;)">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -407,7 +408,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BqjsKX1vqIzPkwv8Hbh7Y4" Bounds="91,21,254,56" ShowValueBox="true" isIOBox="true" Value="VL.SharpNoise">
+          <Pad Id="BqjsKX1vqIzPkwv8Hbh7Y4" Bounds="99,53,254,56" ShowValueBox="true" isIOBox="true" Value="VL.SharpNoise">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -419,11 +420,6 @@
         </Canvas>
         <Patch Id="MFwhns2Yzt6NJQdQIwHaY1" Name="Create" />
         <Patch Id="Ikbp8B9v1wWNyFUsZIehaX" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="NRIHW3aXUD1PwfZzA7gD0E">
           <Fragment Id="JIW8DBtlKgSOU3rK2tb5gc" Patch="MFwhns2Yzt6NJQdQIwHaY1" Enabled="true" />
           <Fragment Id="MGstjuFfjxHOHXPiJGk45c" Patch="Ikbp8B9v1wWNyFUsZIehaX" Enabled="true" />
@@ -455,5 +451,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="MsDupKZcmlMQEpCkd7YKor" Location="VL.Skia" Version="2020.1.0" />
-  <DocumentDependency Id="Lwa2tVSkRzKNPcwm7n0eo7" Location="../VL.SharpNoise.vl" />
+  <DocumentDependency Id="E3h1tydpBNONEpfcHbzZfV" Location="../../VL.SharpNoise.vl" IsForward="true" />
 </Document>
